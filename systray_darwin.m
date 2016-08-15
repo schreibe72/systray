@@ -106,6 +106,7 @@
 - (void) quit
 {
   [[NSStatusBar systemStatusBar] removeStatusItem: statusItem];
+  [NSApp terminate:self];
 }
 
 @end
